@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TraceIP - Request",
+  "required": [
+    "ip"
+  ],
+  "type": "object",
+  "properties": {
+    "ip": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "ip": "83.44.196.93"
+  }
+}

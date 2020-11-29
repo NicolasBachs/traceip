@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "get": {
+      "tags": [
+        "Statistics"
+      ],
+      "summary": "Get statistics",
+      "description": "Permite obtener estadísticas de utilización del servicio.",
+      "parameters": [
+      ],
+      "responses": {
+        "200": {
+          "description": "Success response",
+          "headers": {},
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "../../schemas/statistics/statisticsResponse.json"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

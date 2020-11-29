@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "TraceIP - Response",
+    "type": "object",
+    "properties": {
+        "min": {
+            "type": "number"
+        },
+        "max": {
+            "type": "number"
+        },
+        "avg": {
+            "type": "number"
+        },
+        "minCountry": {
+            "type": "string"
+        },
+        "maxCountry": {
+            "type": "string"
+        }
+    },
+    "example": {
+        "min": 8710.828258187561,
+        "max": 19022.64854394892,
+        "avg": 13203.208278713786,
+        "minCountry": "US",
+        "maxCountry": "CN"
+    }
+  }
+  

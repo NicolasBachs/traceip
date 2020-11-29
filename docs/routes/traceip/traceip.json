@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "post": {
+    "tags": ["TraceIP"],
+    "summary": "TraceIP",
+    "description": "Permite obtener información asociada a una IP",
+    "parameters": [
+    ],
+    "requestBody": {
+      "description": "",
+      "content": {
+        "application/json": {
+          "schema": {
+            "$ref": "../../schemas/traceip/traceipRequest.json"
+          }
+        }
+      },
+      "required": true
+    },
+    "responses": {
+      "200": {
+        "description": "Success response",
+        "headers": {},
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "../../schemas/traceip/traceipResponse.json"
+            }
+          }
+        }
+      }
+    },
+    "deprecated": false
+  }
+}

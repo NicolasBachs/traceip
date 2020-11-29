@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "TraceIP - Response",
+  "type": "object",
+  "properties": {
+    "distanciaEstimada": {
+      "type": "number"
+    },
+    "horarios": {
+      "type": "object"
+    },
+    "idiomas": {
+      "type": "array"
+    },
+    "isoCode": {
+      "type": "string"
+    },
+    "monedas": {
+      "type": "object"
+    },
+    "pais": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "distanciaEstimada": 18771.285691363337,
+    "horarios": {
+        "UTC+08:00": "2020-11-29 13:59:42"
+    },
+    "idiomas": [
+        {
+            "isoCode": "zh",
+            "nombre": "Chinese",
+            "nombreNativo": "中文 (Zhōngwén)"
+        }
+    ],
+    "isoCode": "TW",
+    "monedas": {
+        "TWD": "0.035065 USD"
+    },
+    "pais": "Taiwan"
+  }
+}
